@@ -1,0 +1,88 @@
+# Ignore log files
+*.log
+*.log.*
+
+.env
+
+# Ignore system-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Python-related files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.dist-info/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore temporary files and directories
+*.swp
+*.swo
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Ignore lock files
+*.lock
+
+# Ignore Redis dump files
+dump.rdb
+
+# Ignore Celery log files
+celerybeat-schedule
+*.pid
+
+# Ignore Celery and Redis related logs
+celeryd.log
+celeryd-*.log
+celery-beat.log
+celery-beat-*.log
+celerybeat.pid
+redis.log
+
+# Ignore IDE/Editor specific settings
+.vscode/
+.idea/
+
+# Ignore macOS specific files
+*.DS_Store
+
+# Ignore Linux trash files
+*.Trash-*
+
+# Ignore Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore compressed files (optional)
+*.tar
+*.gz
+*.zip
+
+# Ignore all log files in subdirectories
+**/*.log
+**/*.log.*
+
+# Ignore general debug files
+debug.log
+debug.log.*
+
+# Ignore metadata files
+*.mdmp
+*.dmp
+
+# Ignore any kind of log in subdirectories
+logs/
+**/logs/
+
+*.pem
+*.pub
+
+/input_videos
+AWS.md
